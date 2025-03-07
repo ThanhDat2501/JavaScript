@@ -29,7 +29,7 @@ console.log("Area:", area);
 // Temperature in Celsius
 let celsius = 30;
 // // Convert to Fahrenheit
-let fahrenheit = (9/5) * celsius + 32;
+let fahrenheit = (9 / 5) * celsius + 32;
 // Print result
 console.log(celsius + "°C = " + fahrenheit + "°F");
 
