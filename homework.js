@@ -22,7 +22,7 @@ if (true) {
 // formula of BMI is: BMI = weight (kg) / [height (m)]2
 let weight = 75;
 let height = 1.72;
-BMI = weight / height ** 2;
+let BMI = weight / height ** 2;
 console.log("BMI :", BMI)
 
 // Calculate Simple Interest (principal * rate * time)
@@ -38,7 +38,7 @@ console.log("Calculate Simple Interest :", simpleInterest)
 
 let usd = 1000;
 let exchange = 23000;
-vnd = usd * exchange;
+let vnd = usd * exchange;
 console.log(`USD = ${usd} convert to VND =`, vnd)
 
 
