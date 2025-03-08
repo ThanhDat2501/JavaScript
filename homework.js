@@ -12,7 +12,7 @@
 if (true) {
     // var dat = 'deptrai';
     // let dat = 'deptrai'; 
-    const dat = 'deptrai'
+    dat = 'deptrai'
     // dat = 'khongdeptrai'
     console.log(dat);
 }
@@ -22,7 +22,7 @@ if (true) {
 // formula of BMI is: BMI = weight (kg) / [height (m)]2
 let weight = 75;
 let height = 1.72;
-let BMI = weight / height ** 2;
+const BMI = weight / height ** 2;
 console.log("BMI :", BMI)
 
 // Calculate Simple Interest (principal * rate * time)
@@ -30,7 +30,7 @@ let principal = 10000;
 let rate = 3.875;
 let time = 5;
 
-simpleInterest = principal * rate * time;
+const simpleInterest = principal * rate * time;
 console.log("Calculate Simple Interest :", simpleInterest)
 
 
@@ -38,7 +38,7 @@ console.log("Calculate Simple Interest :", simpleInterest)
 
 let usd = 1000;
 let exchange = 23000;
-let vnd = usd * exchange;
+const vnd = usd * exchange;
 console.log(`USD = ${usd} convert to VND =`, vnd)
 
 
