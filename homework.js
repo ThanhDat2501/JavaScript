@@ -9,26 +9,19 @@
 // var: function or global scope and allows re-declaration and updates within the same scope.
 // let: block scope, allowing updates but not re-declaration within the same block.
 // const: block-scoped variables that cannot be reassigned after their initial assignment.
-if (true) {
-    // var dat = 'deptrai';
-    // let dat = 'deptrai'; 
-    dat = 'deptrai'
-    // dat = 'khongdeptrai'
-    console.log(dat);
-}
-// console.log(dat)
+
 
 // Calculate BMI (Body Mass Index)
 // formula of BMI is: BMI = weight (kg) / [height (m)]2
-let weight = 75;
-let height = 1.72;
+const weight = 75;
+const height = 1.72;
 const BMI = weight / height ** 2;
 console.log("BMI :", BMI)
 
 // Calculate Simple Interest (principal * rate * time)
-let principal = 10000;
-let rate = 3.875;
-let time = 5;
+const principal = 10000;
+const rate = 3.875;
+const time = 5;
 
 const simpleInterest = principal * rate * time;
 console.log("Calculate Simple Interest :", simpleInterest)
@@ -36,8 +29,8 @@ console.log("Calculate Simple Interest :", simpleInterest)
 
 // Convert Currency (USD to local currency)
 
-let usd = 1000;
-let exchange = 23000;
+const usd = 1000;
+const exchange = 23000;
 const vnd = usd * exchange;
 console.log(`USD = ${usd} convert to VND =`, vnd)
 
@@ -62,5 +55,5 @@ function calculateTime(second) {
     }
     return `${hours} : ${minutes} : ${second}`;
 }
-let times = 6 * 60 * 60 + 9 * 60 + 59;
+const times = 6 * 60 * 60 + 9 * 60 + 59;
 console.log('Calculate Time :', calculateTime(times))
